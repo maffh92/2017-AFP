@@ -1,0 +1,11 @@
+Exercise 1: correct
+Exercise 2: correct
+Exercise 3: correct
+Exercise 4: correct
+Exercise 5: correct
+Exercise 6: correct
+Exercise 7a: correct
+Exercise 7b: correct, but lacking proofs for step2 and step3 (3/5)
+Exercise 9: correct, but lacking a proof for correctness (2/3)
+
+Final grade: 9.2
