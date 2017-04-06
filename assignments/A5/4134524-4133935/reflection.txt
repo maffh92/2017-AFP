@@ -1,0 +1,13 @@
+We liked that we proved the applicative laws for Vector
+
+We forgot to include the identity matrix. Whoops!
+
+There is no second part to exercise 7 in the solutions. We made some proof trees and converted them to Agda, which also works.
+
+Our approach to Exercise 9 is the same as the reference solution.
+
+Total
+-----
+
+Missed one identity matrix, but we did some extra work so:
+9.75 / 10

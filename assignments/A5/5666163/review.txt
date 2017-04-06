@@ -1,0 +1,62 @@
+We don't agree with the following postulate:
+
+-- Function extensionality
+postulate fun-ext : {a b : Set} {f g : a → b} → (∀ x → f x ≡ g x) → f ≡ g
+
+Luckily, you don't seem to use it anywhere in the solutions. Watch out for using too many postulates, they might make your whole logic inconsistent.
+
+Exercise 1: OK
+
+1 point
+
+Exercise 2:
+We didn't see a definition for matrix addition. ZipWith is nice but wasn't needed.
+The identity matrix should not be filled with ones, instead it should be 1 on the diagonal and 0 otherwise. E.g.:
+    1 0 0 0
+    0 1 0 0
+    0 0 1 0
+    0 0 0 1
+
+0.5 points
+
+Exercise 3:
+While the definitions compile, they don't do what was indicated by the exercise. The type Fin n represents all numbers 0, 1, ..., n-1
+
+The result of "plan {n}" should be a vector of length n storing all the inhabitants of Fin n in increasing order.
+The forgetful map from Fin to N should map Fz to 0, Fs Fz to 1, and so on. If you map everything to zero, then it's very easy to prove forget i == forget somethingelse :-)
+
+0 points
+
+Exercise 4:
+difference doesn't seem to work: difference 100 50 gives 48, not 50. You should have written Succ k in the right hand sides instead of k.
+
+0.5 points
+
+Exercise 5:
+OK
+
+1 point
+
+Exercise 6:
+OK
+
+1 point
+
+Exercise 7:
+You didn't manage to prove the last 3 theorems, unfortunately :(
+
+0.5 points
+
+Exercise 8:
+OK
+
+1 point
+
+Exercise 9:
+Your basic idea would have worked. However, it's quite hard to prove that your program will never result in Nothing. Instead, you can use the type system to encode which executions are valid in the Cmd data type. By only letting commands compose when the previous command ensures the stack is big enough, you don't need a Maybe in executing. Essentially, this stacksize function you propose is part of the type.
+
+0.25 points
+
+Total:
+
+6.75 points / 10
