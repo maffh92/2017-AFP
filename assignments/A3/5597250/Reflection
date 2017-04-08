@@ -1,0 +1,22 @@
+From: 5597250
+To: 5597250
+
+Grade: 9.5/10
+
+2.2.2.1
+The function is tail recursive. However, it changes the structure of the left side of the tree a little bit. The exercises wasn't that big and I was pretty close to the real solution. That's why I only removed -0.5 of the grade for this exercise. 
+
+2.2.3
+It works. So I did not deduct any points.
+
+2.4.1
+Correct.
+
+2.4.2
+Correct.
+
+2.4.3
+Correct.
+
+2.5.3
+Correct.

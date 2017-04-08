@@ -1,0 +1,21 @@
+From: 5597250
+To: 5797780
+
+Grade:10/10
+
+2.2.1 Tail recursion
+It works.
+
+2.2.3 Fix
+it works.
+
+2.4.1 -2.4.3 Nested types
+All of the required questions are correct.
+Even the below y function compiles. 
+y :: (a -> a) -> a
+y = \f -> (\x -> f ((unF x) x)) (F $ \x -> f ((unF x) x))
+
+10/10
+
+2.5.3 Evidence translation
+Nice way of writing the binds.
