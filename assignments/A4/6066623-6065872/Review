@@ -11,10 +11,10 @@ empty -> correct
 null -> correct
 lookup -> correct
 
-insert -> does not compile
+insert -> This function does not compile. 
 valid -> This is not correct. It only returns false.
-delete -> This is not correct. The idea of this function was not to delete the whole trie, but only a path in the three.
+delete -> This is not correct. The idea of this function was not to delete the whole trie, but only a path in the tree.
 
 
 2.10.5
-Not correct. The idea was to use readIORef such that you could references of variables. 
+Not correct. The idea was to use readIORef such that you could use references of variables. 
